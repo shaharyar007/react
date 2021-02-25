@@ -13,7 +13,7 @@ function App() {
     <Nav/>
     <switch>
     <Route path="/" exact component={Home} />
-     <Route path="/counter" component={Counter} />    
+     <Route path="/counter" component={Counter } />    
      <Route path="/about" component={About} />      
      </switch>     
     </div>
